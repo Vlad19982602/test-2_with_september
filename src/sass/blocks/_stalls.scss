@@ -1,0 +1,51 @@
+.stalls {
+	min-height: 500px;
+	max-width: 1140px;
+	margin: 0 auto;
+	margin-top: 108px;
+	margin-bottom: 108px;
+	&__wrapper {
+		display: block;
+		margin-top: 108px;
+		&-title {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex-shrink: 0;
+			color: #DC780B;
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 24px; /* 150% */
+			letter-spacing: 3.2px;
+			text-transform: uppercase;
+		}
+		&-descr {
+			display: block;
+			margin-top: 20px;
+			width: 474px;
+			color: #150C01;
+			font-family: 'Philosopher', sans-serif;
+			font-size: 31.25px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 40.625px; /* 130% */
+		}
+		&-text {
+			display: block;
+			color: #150C01;
+			margin-top: 30px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 24px; /* 150% */
+			opacity: 0.7;
+		}
+	}
+	&-img {
+		width: 567px;
+		height: 520px;
+	}
+}
