@@ -1,0 +1,26 @@
+.contact {
+	margin: 0 auto;
+	padding-bottom: 108px;
+	padding-top: 108px;
+	display: flex;
+	width: 749px;
+	flex-direction: column;
+	justify-content: center;
+	&__form {
+		display: flex;
+		margin-top: 46px;
+	}
+	&__input {
+		width: 500px;
+		height: 75px;
+		padding-left: 4%;
+	}
+	&__btn {
+		width: 250px;
+		height: 75px;
+		border-radius: 10px;
+		background: #DC780B;
+		border: #DC780B;
+		color: #fff;
+	}
+}

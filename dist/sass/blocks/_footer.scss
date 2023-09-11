@@ -1,0 +1,38 @@
+.footer {
+	max-width: 1440px;
+	min-height: 429px;
+	margin: 0 auto;
+	background: #252525;
+	padding: 137px 152px 104px 150px;
+	&__logo {
+		width: 61px;
+		height: 60px;
+	}
+	&__links {
+		display: block;
+		text-decoration: none;
+		margin-top: 15px;
+		color: #FFF;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		opacity: 0.7;
+	}
+	&__title {
+		text-decoration: none;
+		color:#FFF;
+		font-family: 'Philosopher', sans-serif;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	&__icons {
+		width: 130px;
+		margin-top: 25px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
