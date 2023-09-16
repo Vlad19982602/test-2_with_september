@@ -3,9 +3,9 @@
 }
 
 .header {
-    display: flex;
     max-width: 1140px;
 	margin: 0 auto;
+    height: 46px;
     &__btn {
         width: 155px;
         height: 46px;
@@ -20,6 +20,7 @@
     &__wrapper {
         display: flex;
         text-align: center;
+        height: 33px;
         &-item {
             width: 100px;
             margin-top: auto;
