@@ -4,6 +4,9 @@
 	margin: 0 auto;
 	&-img {
 		margin-top: 32px;
+		img {
+			width: 100%;
+		}
 	}
 	&__price {
 		display: flex;
